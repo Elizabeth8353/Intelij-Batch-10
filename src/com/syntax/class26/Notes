@@ -1,0 +1,30 @@
+Casting in NON Primitives:
+As we can convert primitive data type with help of casting we can do the same with non primitives
+
+Rules:
+Parent classes are consider big data types in non primitive we can store the obj of child in a variable of
+type Parent.
+
+Parent parent =new Child();
+we can do above assigning but child to parent but can't do the reverse
+
+Child child=new Parent();//compiler Error
+
+Benefit of casting:
+we can achieve run time/ dynamic/late binding/ polymorphisim using casting and method overriding
+because it is not determine at compile time but run time
+we can store obj of all child classes in array or some other data structure
+we can write dynamic code to access all those obj and execute the same methods on different obj
+when we store an child class obj in a parent type variable we can't call child class specific methods
+if we want to call child class methods we can do so but we have to cast down the obj to its original class
+
+It's called run-time polymorphysim/dynamic/late binding
+
+Final keyword:
+1)final with variables if we use final keyword with variable we can change their values
+2)if we use final with method we can not override that method in child class
+3)if we use final with a class we can not inherit from that class
+
+=================================================================
+Abstraction
+is a process of hidding implementation details and only showing the functunality

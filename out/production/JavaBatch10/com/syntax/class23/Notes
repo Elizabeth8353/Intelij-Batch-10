@@ -1,0 +1,6 @@
+Super Keyword:
+Super Keyword is only applicable when we have at least two classes that have parent child relationship
+if we have duplicate field/method in parent and child class we can use superkey word to refer to the parent class
+field/method and if we do not use super keyword field /method from child class will be referred.
+we can also use super keyword with parentheses to call the parent class constructor so that we do not repeat that
+code in all the child classes

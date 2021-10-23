@@ -1,0 +1,21 @@
+Overriding
+**Method overriding polymorphisim concept is applied to the inheritance relationship in java programing
+-A mechanisim through which parent and child classes can have the same methods through inheritance
+- allows us the flexibility in providing our own implementation in our child class if we don't like the parent's implementation
+-cannot override private methods since they don't participate in inheritace
+-can't decrease visibility because breaks inheritance contract
+-static methods cannot be overriden they belong to class not the object we can hide/redeclare
+-method must have the same signature and return type
+-final methods cannot be overriden
+-subclasses in different packages can only override methods that are public or protected
+-they should have an inheritance relationship
+-how the obj behaves depends on the class obj we use
+
+it is also called dynamic binding, late binding, runtime polymorphisim
+**Method overriding,method overloading, constructor overloading are all concepts under Polymorphisim in java
+**Method overriding is runtime polymorphsym as the methods call get resolve at run time.compiler will not be able to
+decied which obj method to call at compile time
+============================================================================
+Difference between Overloading and Overriding
+in overloading we call same method with different parameters and depending upon parameter java executes the appropriate method
+in overriding depending upon which obj we are storing inside our reference variable different implementation will be called

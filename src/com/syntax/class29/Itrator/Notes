@@ -1,0 +1,4 @@
+so for loop fails because it doesnt check if there's any elements to perform action on , and it doesn't stop,
+but iterator checks first if there is a element and then performs the action
+
+itrators are insink with the collection classes

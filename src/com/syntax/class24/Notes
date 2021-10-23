@@ -1,0 +1,33 @@
+Method Overloading in Java:
+Method overloading is when we have same name of method inside a class but with different type, number or sequence of parameters
+but with different type number or sequence of parameters
+We overload method t reuse code and write cleaner code
+
+Method overload rules:
+1. To overload we must have at least two methods with same name inside a class
+2. we cannot overload a method by just changing the return type
+3. we ca not overload by just changing the access modifier
+4. static methods can also be overloaded
+5. We can also overload the constructor of a class
+6. if different return type don't matter
+
+Var Args
+is a mechanisim in java through which we can handle arrays and multi arguments of same type in a method parameter
+we can treat the Var args same as an array inside the method
+
+Void array(String...name){
+sout name[0];
+sout names.length;
+for(int i=0;i<names.length;i++){
+sout names[i]
+}
+}
+Interview question:
+can main method be overloaded
+
+with out inheritance overriding is not possible
+if you want to override paramenters must
+
+method signature= method name and parameters and return type
+private does not participate in inheritance
+constructor do not participate in inheritance

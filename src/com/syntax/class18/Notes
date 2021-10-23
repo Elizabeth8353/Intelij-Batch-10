@@ -1,0 +1,32 @@
+Access Modifiers:
+Keywords that determine the acceess of members (fiels/methods/constructors)
+There are four access level and 3 access modifiers keywords
+1.private
+2.default(not a keyword)
+3.protected
+4.public
+
+Private:
+if we use private keyword with fields or methods those fields and methods only accessible within same class
+
+Default:
+default is not a keyword if we don't specify any keyword with the fields/methods default access is automatically applied
+to java that means that field or method is accesible within same class and package
+
+Protected:
+if we use the protected keyword that field/method is accesible within same class and same package outside of package but
+we have to write "extends" keyword and only can access it without creating an obj of that class
+
+Public:
+accessable through out project with or without creating an object of that class
+===================================================================================
+Class Constructors and this keyword
+Constructors is similar to methods may or may not return something but constructor always never return anything not
+even void
+1)we use constructor to give initial values to fields of class
+2)constructors always have same name as class while methods can have any name
+
+we can have multiple constructors to ease the creation of obj
+when we have multiple constructors java decides based on the type and number of arguments that
+we are passing when we are creating an object if we are passing three
+values java will

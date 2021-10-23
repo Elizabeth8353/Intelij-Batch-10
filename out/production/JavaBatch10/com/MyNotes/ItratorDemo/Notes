@@ -1,0 +1,3 @@
+Iterator- is an interface
+iterator()- is a method in the Iterable parent in collection framework this method return us the object of Iterator interface
+with this object we can access the methods like:hasNext,next,remove in Iterator Interface

@@ -1,0 +1,60 @@
+Method overriding:
+    Method overriding is a mechanism in java through which child classes can provide
+    their own behaviours with same method name as in parent class
+
+Rules for overriding:
+    1) there should be at least two classes with parent child relationship
+    2) method in child class must have same return type
+    3) name of the method with parameters(signature of method) should be same
+    4) Those members of the class which do not participate in inheritance can
+    not be overridden for example 1) Constructors 2) private methods
+    5) The access level of the method or property can not be more restrictive
+    for example if method in parent class has public access modifier we can not change
+    it to protected or default or private, but we can do the reverse.
+    6) we can't override a static method, but we can redeclare that method in child
+    class it's just a different name the mechanism is same as non-static methods.
+    7) its also called dynamic polymorphism/late binding
+    8) we can use @Override to test our overriding method is correct or not
+
+Overloading                              vs          overriding
+Method return type does not matter      ====   Method return type matter
+Method signature should be different           Method signature should be same
+Access modifiers don't matter                  Access modifiers matter
+Inheritance is not needed                      Need inheritance relationship
+we can overload a constructor or               constructors and private methods can't be overridden
+private method
+we can overload static methods                  we can not override static methods
+==========================================================
+We can store a child class object inside a parent class type variable
+but we will only be able to call those methods which are present in Parent class
+if we want to call the methods from child class we must first convert parent type
+variable to Child type by using below syntax
+(ChildType)ParentVar will convert it to child type now we can call the specific methods
+from child as well
+with the help of this casting we can create an array that can hold all the objects of all
+of child classes of parent and becuase of overriding all the methods have same name
+now we can execute all the methods from all the child classes with the help of an array
+without writing all the code manually.
+==================================================================
+Final
+in java means something is complete and don't need modifications.
+if we use final keyword with a variable we can't change the value of that variable
+if we use it with methods no child class can override that method
+if we use with class name no class can inherit from that class
+================================================================
+We can store a child class object inside a parent class type variable
+but we will only be able to call those methods which are present in Parent
+class. If we want to call the methods from child class we must first convert
+parent type variable to CHild type by using below syntax
+(ChildType) ParentVar will convert it to child type now we can call the
+specific methods from child as well
+with the help of this casting we can create an array that can hold all the objects
+of all of child classes of parent and because of overridding tall the methods
+have same name now we can execute all the methods from the child classes with the helo of
+an array without writting all the code manually
+=======================================================================
+Final
+in java means something is complete and don't need modifications
+if we use the final keyword with avariable we can't change the value of that variable
+if we use it with methods no child class can override that method
+if we use with class name no class can inherit from that class

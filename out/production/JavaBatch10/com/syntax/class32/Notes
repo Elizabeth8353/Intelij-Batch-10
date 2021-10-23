@@ -1,0 +1,13 @@
+Map has entries and in those entries we have key and values
+
+INTERVIEW QUESTON
+* difference between put and replace in Maps?
+put will check if something is present if present will override it if not present will insert that new element in that key
+While replace it will replace the value of the specified key if key not present nothing will happen
+
+===========================================================================
+XML handeling /file handeling
+To read a file manually
+1) locate the file
+2)right type of software to manipulate that file
+

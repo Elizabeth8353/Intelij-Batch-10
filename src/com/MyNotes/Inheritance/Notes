@@ -1,0 +1,5 @@
+private members cannot be inherited
+
+Avantages of inheritance is saves development time, class extendebility and code re-usability
+
+to prevent a class to be inherited/extended the class should be final class

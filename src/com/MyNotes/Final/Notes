@@ -1,0 +1,5 @@
+Final keyword:
+-Final is a non acess modifier that used when something is complete and don't need modifications
+-when used in clases no other class can inherit it
+-when used with variables we cannot change the value of that variable
+-when used with methods those methods can't be overwritten

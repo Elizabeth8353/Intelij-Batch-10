@@ -1,0 +1,20 @@
+super keyword in java is used to invoke imidiate parent class constructor, refer imidiate parent class instance
+variables, invoke immidiate parent class methods
+
+super keyword is used to access hidden super class variables in subclass
+super is used to refer to parent class obj
+
+this() and super() cannot use both in a constructor because both this and super should be the first statement
+
+"this" is used to refer the current obj of a class in java
+
+cannot have this() in methods compile time error only inside constructors
+
+Why we use variables= to get something processed by our processors inside our computers we first need to store that thing inside main
+memory the ram once its loaded in main memory the processor can start executing it and show us output for this purpose we use variables
+*we use variables to hold single values, hold our data,consists of datatype and identifier(name of variable) and value. can make variables
+of primitive and non primitive types. variables limitations only can hold one value at a time if we try to change it will be overridden
+
+
+
+

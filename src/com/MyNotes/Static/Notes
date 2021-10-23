@@ -1,0 +1,6 @@
+Static
+-constructors can not be static becuase constructor belong to obj not classes
+-cannot have instant variables inside static methods because instant
+variables can change according to each obj and java will get confused which
+obj variable to choose since static can hold one value and share it
+-

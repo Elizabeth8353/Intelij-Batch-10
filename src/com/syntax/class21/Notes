@@ -1,0 +1,29 @@
+"this" keyword:
+We can use this keyword to defferentiate between local and instant variables.
+
+class car{
+String make;
+String model;
+
+car(String make, String model){
+this.make=make;  if we dont have this. java will give prefence to local var and will not initialize our instance
+this.model=model;
+}
+void park(){
+String make;
+syso("car"+make(local var)+this.make(instant var);
+
+"this()"
+we can use this() to refer to the constructors of the class
+if we have multiple constructor java will deciede based on the parameters
+which constructor to call
+this keyword to call the methods
+===============================================
+Inheritace:
+is a mechanisim in java through which we can acess all the fields and methods
+from one code to another class
+
+We use extends keyword to inherit the properties and methods
+Advantages:
+we can avoid code duplications
+it reduces amount of code

@@ -1,0 +1,37 @@
+Types of Variables in Java:
+There  are 3 types of variables in java
+1) local Variable
+2) Static Varible
+3) instant Variable
+
+Local Variable :
+Are those variables which are declared inside a block of code (Method, loop, constructor)
+When to use:
+Try to always use it because it dosent ocupy memeory for shotest period of time in all the variables
+as soon as block of code is executed memory is free and can be used by other programs. we cannot use static keyword
+with local variables
+2)Instant variables:
+those variables which are outside of block of code but inside a class without static keywords are called instant variables
+
+when to use:
+when we know that from object to object we will be having different values and we might
+alse need to share the varibles between difference instant methods of that class
+3)static variables:
+Those instance variables that have static keyword with them are called static varibles.
+one single copy of variables  is shared accross all the objects
+WHen to use:
+when we need to share something with all the objects
+they are mostly used as constants
+
+We can also have instance and static methods but we cannot use instance variables or methods
+derectly inside a static method if we want to use them we must create ann obje
+
+==============================================================
+Access modification is done in java with the help of three keywords
+1.private
+2.protected
+3.public
+4.is not actually if we dont use any keyword with fields/methods default
+access is given to that field /method
+1)private
+private is most restricted one we can only

@@ -1,0 +1,7 @@
+1 parent and 1 child= single inheritance
+1 parent and 2 or 3 child = hirarical inheritance
+1 parent and child->2nd child inherits through child = multilevel inheritance
+2 2parents and 1 child(miltiple inheritance) = not suported in java
+
+disadvantange= of inheritance is that they are tightly couple meaning
+when the parent class if any changes to field or behaviours will after child

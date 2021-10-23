@@ -1,0 +1,27 @@
+Abstract:
+is a process of hidding implemantation deatails and showing functionallity only
+abstract clases are classes that are declared with abstract keyword they help us achive abstraction
+abstraction help us divied the workload and multiple child classes and helps us reduce complexity of code
+
+Rules:
+1)use abstract keyword to define a abstract class
+2)we can have an abstract class with or without abstract methods
+3)we must delcare a class as an abstract class even if we have a single abstract method inside it
+4)we can not create the obj of an abstract class directly but we can extend this class and can create the obj of child
+classes that way we will be able to use fields and methods from abstract class.
+5)we cannot declare a class as final and abstract because it contradicts each other (final means no extension and
+abstract means incomplete and some classes should extend it and complete it)
+6)we can have public private, protected, members in abstract class but in interface always all the fields are public static final
+7)we can not have a method as static and abstract because can't override
+8)we can not have a method as private and abstract because private members don't participate in inheritance and we will
+never be able to implement that method.
+9)we can not have a method as final and abstract
+
+=================================================================
+Interface in java
+Interface in java are also used to achive abstraction
+Rules:
+1) All the fields in an interface are by default public static final
+2) All the methods in an interface are public and abstract by defult
+
+

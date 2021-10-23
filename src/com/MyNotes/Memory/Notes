@@ -1,0 +1,13 @@
+with the help of new keyword we are able to create an obj
+which is stored in our heap area all objs are stored in our heap area
+all fields will have memory addreses.
+
+our variables are stored in our stack area
+all variable type obj the address from our heap is assigned to that variable
+
+for primitive the value for that variable is directly stored in that stack memory they are not stored in heap
+since primitive they directly contain the values in stack area they do not have that indirection
+they don't have memory addresses only obj variables can contain memory addresses from our heap
+
+we cannot called methods in a null since null has no value or memory since variable with null value is pointing to nothing
+methods cannot be called on a variable that don't point to anything or don't hold value

@@ -1,0 +1,21 @@
+Map
+is an interface that helps us store the data in form of key value pairs.
+
+Map is a data structure (it is a way to store and manipulate data ) that stores keys and values cannot be dupplicate
+
+keys and values in the form pair
+
+keys and values must be object
+keys cannot be dupplicate or will override
+values can be duplicate
+
+when to use map:
+when fast search is required because of underlying data structure
+when we want the index other then natural indexes like integers
+
+Type of maps
+Hashmap- order is not mantained. But it is fastest. It is not thread safe
+LinkHashmap- order is mantained but it is slowere than hashmap
+TreeMap-it always stores the data in the sorted form thats why it is slower
+HashTable- it is similar to the hashmap it should be used when we have to write the code of multithreading because
+it is thread safe but it is slower than hashmap

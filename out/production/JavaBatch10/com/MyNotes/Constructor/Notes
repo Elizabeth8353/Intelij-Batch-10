@@ -1,0 +1,16 @@
+Constructor:
+Special block of code thats executed when we create an obj of a class
+its used to initialize our instant fields/property
+**Constructors are not inherited, By using superKeyword we can call super class constructor from sub class constructor
+**Constructors are not overriden since they are not inherited
+Rules:
+-need to have same name of class
+-we can use access modifiers public,protected, default and private
+-most of the times constructors will be public
+-if default access modifier only can create obj in that package
+-NO return type with constructors because they are used to initialize
+and while the JVM is creating the obj when we use the new keyword with call of constructor
+jvm underhood is allocating the memory on computer and initializing our fields
+and returning and obj which is stored inside our variable that obj is nothing but a memory address
+
+**the order of execution of constructor through inheritance is from Base to derived class

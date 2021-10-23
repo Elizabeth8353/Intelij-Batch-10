@@ -1,0 +1,44 @@
+Collection Framework:
+Collection framework in javas is a collection of classes and interfaces that help us store and manipulate data easily
+Arraylist:
+ArrayList is a class in collection framework that help is store elements based on indexes we dont need to provide the
+size upfront, and we have several built in methods to manipulate the data.
+Declaration of Arrays
+String [] names=new {"hilal","dianara"};
+String[] names=new int[5];
+To declare the arraylist
+ArrayList<String> names=new ArrayList<>();
+names.add("hilal");
+
+to retrieve the elements we use
+names.get(i);
+
+Benefits of Array:
+1)ArrayList are not fixed in size that can grow and shrink dynamically
+2)Built-in method to manipulate the data
+Properties:
+1)Maintain the order.
+2)we can add duplicate elements
+
+Common Methods of Collection:
+add()-> helps us to add the element in the arraylist
+get()-> returns the element by index
+remove()->helps use remove the elements from the arraylist two overloaded versions
+one requires the index the other one requires the actual obj to be removed
+size()->returns the number of the elements that are present in the arraylist
+set(index,obj)->replaces the element at the specific index
+
+Note:
+As arraylist can change their size at runt time we should not use loop if we are changing the size of our array in runtime
+by removing or adding
+
+Wrapper classes are obj classes for each primitive data types
+they are used methods from these clases to convert one data type to other
+
+Boxing:
+storing a primitive into an obj wrapper class is called boxing /autoboxing
+if we are using the longer way if using shorter syntax its Autoboxing
+
+UnBoxing /AutoUnboxing:
+conversion of a wrapper type to primitive type is called unboxing or autoUnboxing
+

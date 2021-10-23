@@ -1,0 +1,30 @@
+Method overloading
+-compile time polymorphisim
+-Overloading is a mechanisim in java where same method or constructor can exist with different
+parameters and sequence within a class
+-We need it for code clearance and increases code redability if we are pasing different parameters in a method we
+don't need to come up with different names for each method, gives us the flexibility to call same method name for
+different sequence data
+-cleaner code, we don't need to come up with diferent name each time we add different parameters
+-Achived within same class
+
+-Other names for static binding, early binding, compile time polymorphisim.
+-It's called compile time because it decides which method will be called in compile time
+RULES
+1)changing the number of parameters
+2)changing the type of parameters
+3)by changing sequence of parameters
+
+
+THINGS TO KNOW:
+1)compiler -> checks for syntax errors semantics but not for run time errors or logical
+2)Java source code is converted to Byte code
+3)JVM coverts the byte code to matchine code and executes it
+
+What can we overload
+1) we can overload private and static methods
+2) we can overload constructors
+3) we can overload main method
+4) we can NOT overload a method by changing the return type
+5) we overload methods in same class
+6) we CANNOT overload by just changing the parameters and names

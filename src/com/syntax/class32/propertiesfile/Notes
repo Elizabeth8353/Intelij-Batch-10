@@ -1,0 +1,8 @@
+If you have to read the data use FileInputStream
+If you have to write the date use FileOutPutStream
+If you have to open the file use properties.load()
+If you have to store/write data into that file use properties.store()
+
+
+If you want to open an existing file and you want to make changes and want to store that file read/write data.
+We use FileInput and FIleOutput  and properties.load() and properties.store()

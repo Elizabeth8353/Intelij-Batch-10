@@ -1,0 +1,18 @@
+What is thread safe?
+also called syncronization
+what is syncronize?
+
+
+multithreaded concept?
+we provide multiple thread for the operation,multiple processors are going on at one time,in order to save time in processing
+in multithreading concept we are handling multithreading processors at one time, security is the main concern in that case we need one concept
+called threat safety. Thread safety refers to the code which we write in java language can easily be shared among the processes which are
+going on at one point in time if we are doing all these things it means we are insuring the threat safety and if we are ensuring the thread safety
+and if we are ensuring the thread safety we can say its synchronized or with the process or thread safe. Handling multiple processes at one time
+multithreading
+
+Hashmap = is not thread safe not synchronized no maintenance or order insertion it executes without maintaining the order it does
+not search the data it doesn't store the data in order
+ hashtable= similar to hash table but its synchronized
+
+ HashTable= is synchronized and thread safe

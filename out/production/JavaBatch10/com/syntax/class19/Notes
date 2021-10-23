@@ -1,0 +1,23 @@
+Constructors:
+Special Block of code that help us build/ initialize(gives initial value to our fields) our objects. when we write new
+className(); the code inside no argument the constructor is executed
+
+when we do not provide a constructor a default no argument constructor is provided by compiler.
+if we have multiple constructor java will check the number of arguments and type of arguments and type of arguments to
+decide which constructor to execute.
+
+= when using assignment operator we are assigning a value of the same type
+
+constructor does not have a return type because once an obj is created the constructor is already returning the
+memory referece of our class to that obj so thats why we don't need that return type
+
+if we have same number of patamenters for our construction and same datatype and sequence java
+will give and error the sequence needs to be different or number of data types or or datatypes
+
+We  can use a method to initialize our code but constructor makes it look cleaner
+we can call it in one line of code
+
+This()
+this keyword when used with parenthesis calls the constuctor of a class which
+constructor to call is decieded based on the data type of arguments that we are passing
+It helps us reduce duplicate code as n real life projects we might be writing a lot of constructors

@@ -1,0 +1,26 @@
+Types of Variables in java:
+-local- exist in inside the method only
+-Instant- exist inside class in or out of method boarder scope Not is Static methods
+-Static= like local but with static word also known as class variables
+
+**when click on shift twice = shift+shift it will look for anything increase size etc.
+Instant =variables declared outside of a method,loop, constructor, or a block of code but insure a
+class without static keyword are called instant variables
+we call them instant variables because for each obj of a class a new copy of the variables is crated in the memory
+when use:
+when a value is expected to change from obj to obj we should declare an instant variable for those
+
+Static variables: can access none static methods too
+instance variables with a static keyword are called static variables. They are called class level variables
+because their value stay same accross all the obj and only one memory allocation is occupied from the main memory
+when use:
+when we have to share something across all obj or if something is same for all obj we should store info in static var
+mostly they are used as constants, As good practice acess them using class name
+
+local variables:
+Variables which are declared inside a method or loop or switch or any block of code are called local variables
+local variables occupy the memory in computer for shortest period of time
+
+Static methods:
+we can have static methods as well but static methods
+

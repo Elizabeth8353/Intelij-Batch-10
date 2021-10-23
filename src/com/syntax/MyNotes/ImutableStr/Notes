@@ -1,0 +1,27 @@
+String is imutable to save memory and if a memory address is shared by millions of variables can be
+ pointing at the same memory location and if we change one variable it wont change the value for the other variables
+ sharing that memory
+
+Their are different type of memory in our computer,Stack,method, Heap,StringPool:
+
+ method/stack=When we declare a variable inside main method a memory cell will be reserved in our method memory area
+ for the name of our variable(also known as pointers) and in that cell we will not have the value of our variable
+  but instead we will store the memory address number location that our value lives in inside the string pool.
+  to store our variable names we use the method or stack area
+
+ heap= String pool is inside our heap memory where our values are stored and live and those values are assigned
+ memory addresses that are stored in our variable names where more than one variable can share if value is the same.
+
+the benefits are that each time a string obj is created it will search though our string constant pool to check if
+their is any matching value adress location to point to if none found a new memory location will be created but for
+variable created it will always scan the string pool to save memory
+
+the downfall is that because it scans each time our string pool it will be slow
+
+Which is why we have stringbuilder which will always create a new memory adress in our heap even if value are the same
+so stringbuilder is faster than string because they don't do the search
+
+if data will not be changing and you don't care about speed do string
+if you care about speed and not memory and data will constantly change use Stringbuilder
+
+

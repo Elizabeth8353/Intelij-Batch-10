@@ -1,0 +1,2 @@
+Strings are imutable best to use when variables will be
+using same data
